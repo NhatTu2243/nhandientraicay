@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs / build
+*.log
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Streamlit
+.streamlit/cache/
+.streamlit/state
+.streamlit/secrets.toml
+
+# Datasets (không commit)
+fruits_data/
+valid_data/
+new_test/
+fruits/
+fruits_multi/
+
+# Outputs: chỉ giữ model & map cần thiết
+outputs*/
+!outputs_multi/
+outputs_multi/*
+!outputs_multi/fruit_model.keras
+!outputs_multi/class_indices.json
+
+# Checkpoints
+runs/
+tensorboard/
+*.ckpt
+
+# Archives
+*.zip
+*.7z
+*.rar
+
