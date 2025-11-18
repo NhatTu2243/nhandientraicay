@@ -33,7 +33,7 @@ def load_model_and_classes():
 model, idx_to_class = load_model_and_classes()
 
 # ===== Giao diện =====
-st.title("🍎🍌🍊 Demo nhận diện 14 loại trái cây")
+st.title("🍎🍌🍊 nhận diện 14 loại trái cây")
 
 uploaded_files = st.file_uploader(
     "Chọn một hoặc nhiều ảnh trái cây",
